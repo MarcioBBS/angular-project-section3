@@ -7,6 +7,8 @@ import { Recipe } from '../recipe.model';
   styleUrls: ['./recipe-list.component.css']
 })
 export class RecipeListComponent implements OnInit {
+
+   // Dummy data - Create an Array of Recipes from Recipes model (Model is just a class with properties!) .
    recipes: Recipe[] = [
       new Recipe('Recipe Bananada', 'Recipe description 1', 'https://madrerestaurants.com/wp-content/uploads/2020/05/DSC05512-scaled.jpg'),
       new Recipe('Recipe Chile rellenos', 'Recipe description 2', 'https://madrerestaurants.com/wp-content/uploads/2019/09/chile-rellenos.png'),
